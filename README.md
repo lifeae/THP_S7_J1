@@ -1,4 +1,4 @@
-# The UI Kit Project
+# The kit UI Project
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
@@ -71,7 +71,7 @@ Comment appliquer ces couleurs ? C'est plutôt simple, on va faire comme bootstr
 
 ```
 /************************/
-/* 	 COULEURS       */
+/* 	    COULEURS        */
 /************************/
 
 .primary {
