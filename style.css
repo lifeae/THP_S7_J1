@@ -1,83 +1,191 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
 html
 {
-  background-color: black;
-  color: white;
+  font-family: 'Roboto';
+  background-color: #101010;
+  color: #F0F0F0;
 }
 
 h1{
-
+  font-family: 'Cinzel';
 }
 
 h2{
-
+  font-family: 'Cinzel';
 }
 
 h3{
-
+  font-family: 'Cinzel';
 }
 
 h4{
-
+  font-family: 'Cinzel';
 }
 
 h5{
-
+  font-family: 'Cinzel';
 }
 
 h6{
-
+  font-family: 'Cinzel';
 }
 
 p{
 
 }
 
-.lead{
-
+p[class="lead"]{
+  font-weight: bold;
 }
 
 .primary{
-
+  color: #F0F0F0;
 }
 
 .secondary{
-
+  color: #CCCCCC;
 }
 
 .dark{
-
+  color: #333333;
 }
 
 .medium-light{
-
+  color: #666666;
 }
 
 .light{
-
+   color: #999999;
 }
 
 blockquote{
-
+  font-style: italic;
 }
 
-.alert alert-success{
-
+.alert{
 }
 
-.alert alert-danger{
-
+.alert-success{
+  color: #46a324;
 }
 
-.alert alert-warning{
-
+.alert-danger{
+  color: #ef3a3e;
 }
 
-.alert alert-info{
+.alert-warning{
+  color: #ffad42;
+}
 
+.alert-info{
+  color: #1b96ff;
 }
 
 button{
+  font-family: 'Roboto';
+  padding:6px 0 6px 0;
+  color:#fff;
+  min-width: 100px;
+	border-radius:10px;
+	border:1px solid #ccc;
+  box-shadow:1px 1px 3px #000000;
+  background-color: #a08989;
+  font-weight: bold;
+}
 
+button:hover{
+  background-color: #333333;
+}
+
+.btn-primary:hover{
+}
+
+.btn-warning:hover{
+  background-color: #ffad42;
+}
+
+.btn-danger:hover{
+  background-color: #ef3a3e;
+}
+
+.btn-info:hover{
+  background-color: #1b96ff;
+}
+
+.btn-success:hover{
+  background-color: #46a324;
+}
+
+.btn-outline:hover{
+}
+
+.btn-sm:hover{
+}
+
+.btn-lg:hover{
 }
 
 li{
@@ -85,7 +193,7 @@ li{
 }
 
 input{
-
+  font-family: 'Roboto';
 }
 
 select{
@@ -100,15 +208,18 @@ textarea{
 
 }
 
-.radio{
+input[type="radio"]
+{
 
 }
 
-.checkbox{
+input[type="checkbox"]
+{
 
 }
 
-.submit{
+input[type="submit"]
+{
 
 }
 
@@ -116,7 +227,10 @@ textarea{
 
 }
 
-.list-group-item list-group-item-action flex-column align-items-start active{
+.list-group-item
+list-group-item-action
+flex-column
+align-items-start {
 
 }
 
